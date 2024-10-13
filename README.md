@@ -1,8 +1,10 @@
-# Her Period 🌸
+
 
 <div align="center">
 
-![Her Period Logo](https://your-logo-url.com/her-period-logo.png)
+
+
+# Her Period 🌸
 
 <h3>
   <span style="background: linear-gradient(45deg, #FF69B4, #FF1493, #C71585, #DB7093);
