@@ -1,51 +1,56 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
-// Assets
-import {BsFillArrowUpCircleFill} from 'react-icons/bs';
-import LogoImg from "../../assets/svg/Logo";
 
 export default function Footer() {
-
-  const getCurrentYear = () => {
-    return new Date().getFullYear();
-  }
-
-  return (
-    <Wrapper>
-      <div className="darkBg">
-        <div className="container">
-          <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
-            <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
-              <img src="https://user-images.githubusercontent.com/86917304/210371198-dc840422-935e-4712-9cf8-f6b6bbf28792.png" width={90} alt="logo" />
-              <h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px" , fontSize:"20px" }}>
-                Shewin
-              </h1>
-            </Link>
-            <StyleP className="whiteColor font15">
-              © {getCurrentYear()} - <span className="purpleColor font15" style={{cursor:"pointer"}}>Shewin</span> All Right Reserved
-            </StyleP>
-
-            <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
-            <BsFillArrowUpCircleFill size={30} color={"white"} />
-            </Link>
-          </InnerWrapper>
-        </div>
-      </div>
-    </Wrapper>
-  );
+	return (
+		<FooterWrapper>
+			<FooterContent>
+				<AppName>Period Care</AppName>
+				<Motto>Your period, your way.</Motto>
+				<Description>
+					At Period Care, we understand that your cycle is more than just a few days. Our app provides personalized health and nutrition insights for every phase, empowering you to take control and support your well-being throughout the month.
+				</Description>
+				<Copyright>© {new Date().getFullYear()} dot. All rights reserved.</Copyright>
+			</FooterContent>
+		</FooterWrapper>
+	);
 }
 
-const Wrapper = styled.div`
-  width: 100%;
+const FooterWrapper = styled.footer`
+	width: 100%;
+	padding: 40px 20px;
+	background-color: #f0f8f8; // Match the color scheme
+	text-align: center;
+	position: relative;
+	bottom: 0;
 `;
-const InnerWrapper = styled.div`
-  @media (max-width: 550px) {
-    flex-direction: column;
-  }
+
+const FooterContent = styled.div`
+	color: #000; // Ensure text is readable
+	font-size: 14px;
 `;
-const StyleP = styled.p`
-  @media (max-width: 550px) {
-    margin: 20px 0;
-  }
+
+const AppName = styled.h2`
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: bold;
+`;
+
+const Motto = styled.p`
+	font-size: 16px;
+	margin-bottom: 10px;
+	font-style: italic;
+`;
+
+const Description = styled.p`
+	font-size: 14px;
+	margin-bottom: 20px;
+	line-height: 1.5;
+	max-width: 600px;
+	margin: 0 auto;
+`;
+
+const Copyright = styled.p`
+	font-size: 14px;
+	margin-top: 20px;
 `;

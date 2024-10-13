@@ -23,9 +23,9 @@ export default function TopNavbar() {
 			>
 				<NavInner className="container flexSpaceCenter">
 					<Anc className="pointer flexNullCenter" smooth={true} to={"/"}>
-						<LogoIcon />
+						
 						<h1 style={{ marginLeft: "3px" }} className="font20 extraBold">
-							Shewin
+							Period Care
 						</h1>
 					</Anc>
 					<BurderWrapper
@@ -145,10 +145,11 @@ export default function TopNavbar() {
 
 const Wrapper = styled.nav`
 	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
+	position: sticky; // Changed position to sticky
+	top: 0; // Ensures the navbar sticks to the top
 	z-index: 999;
+	background-color: beige; // Background color set to beige
+	padding: 20px 0; // Added padding to top and bottom
 `;
 const NavInner = styled.div`
 	position: relative;
