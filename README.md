@@ -65,10 +65,10 @@ Period Care is a comprehensive web platform dedicated to women's health, focusin
 
 ## 💻 Technologies Used
 
-- Frontend: [List your frontend technologies]
-- Backend: [List your backend technologies]
-- Database: [List your database]
-- Hosting: [List your hosting platform]
+- Frontend: Next.js (React-based framework for fast, SEO-optimized web applications)
+- Backend & Database: Firebase (Real-time database, authentication, and cloud functions)
+- Google Maps API: For the Pad Locator feature, allowing users to find nearby pharmacies
+- Deployment: Vercel (Deployment platform optimized for Next.js applications)
 
 ---
 
@@ -78,10 +78,10 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/her-period.git
+git clone https://github.com/Ahmad-Fakhar/PeriodCare.git
 
 # Navigate to the project directory
-cd her-period
+cd period-care
 
 # Install dependencies
 npm install
