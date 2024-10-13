@@ -21,34 +21,19 @@ export default function Projects() {
 			<div className="whiteBg">
 				<div className="container">
 					<HeaderInfo>
-						<h1 className="font40 extraBold">Health Services for you</h1>
+						<h1 className="font40 extraBold">Comprehensive Health Services</h1>
 						<p className="font13">
-							Period days are never easy. So here's our simple Healthcare to
-							make them less worser
-							<br />
-							Share your location and get to the nearest doctor's clinic.
-						</p>
+						Managing your health should be simple. Our tailored healthcare solutions are here to support your well-being every step of the way.</p>
 					</HeaderInfo>
 					<div className="row textCenter">
-						<div className="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-							<Link to={"/appointment"}>
-								<ProjectBox
-									img={
-										"https://th.bing.com/th/id/OIP.CfhysBdY7oNrgYOf3308zwHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-									}
-									title="Get Gynaecologist's care"
-									text="Take an appointment from the nearest gynaecologist"
-								/>
-							</Link>
-						</div>
 						<div className="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 							<Link to={"/"}>
 								<ProjectBox
 									img={
 										"https://img.freepik.com/free-vector/feminine-hygiene-products_23-2148658416.jpg?w=740&t=st=1673089781~exp=1673090381~hmac=43f454c7e68293446a5009ad018440a2ca8d45114ccc712873fd84b75570af43"
 									}
-									title="Get PILLs and PADs"
-									text="Get to the nearest medical store for pills or pads"
+									title="Get Pills and Pads"
+									text="Locate the nearest medical store to quickly access pills, pads, or any essential period care products."
 								/>
 							</Link>
 						</div>
@@ -59,7 +44,7 @@ export default function Projects() {
 										"https://img.freepik.com/free-vector/creative-menstrual-calendar-concept-illustrated_23-2148662282.jpg?w=740&t=st=1673051551~exp=1673052151~hmac=cc8dc3c63a9c7145f0fb7e473fb5ccd6ecd8692f5a841a58c8dedd9a689d9db7"
 									}
 									title="Period Tracker"
-									text="Get an complete details of your period cycles, mood swings ,diet chart and sleep cycle "
+									text="Track your complete cycle, including period dates, mood changes, diet recommendations, and sleep patterns for a holistic view of your health."
 								/>
 							</Link>
 						</div>
@@ -70,7 +55,19 @@ export default function Projects() {
 										"https://img.freepik.com/free-vector/messaging-fun-concept-illustration_114360-1563.jpg?t=st=1673089953~exp=1673090553~hmac=bc161ad549e1ec1594195cc081b58200698d41165d0ab281e5b3a4c2e0262395"
 									}
 									title="Mood Tracker"
-									text="Get an complete details of your period cycles, mood swings , diet chart and sleep cycle "
+									text="Monitor mood swings alongside your cycle, with insights on diet, sleep, and well-being to help you stay balanced throughout the month."
+								/>
+							</Link>
+						</div>
+						<div className="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+							<Link to={"/appointment"}>
+								<ProjectBox
+									img={
+										"https://th.bing.com/th/id/OIP.CfhysBdY7oNrgYOf3308zwHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+									}
+									
+									title="Get Gynaecologist's care"
+									text="Easily book an appointment with a nearby gynecologist for expert care and personalized advice."
 								/>
 							</Link>
 						</div>

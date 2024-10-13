@@ -6,10 +6,7 @@ export default function Footer() {
 		<FooterWrapper>
 			<FooterContent>
 				<AppName>Period Care</AppName>
-				<Motto>Your period, your way.</Motto>
-				<Description>
-					At Period Care, we understand that your cycle is more than just a few days. Our app provides personalized health and nutrition insights for every phase, empowering you to take control and support your well-being throughout the month.
-				</Description>
+				
 				<Copyright>© {new Date().getFullYear()} dot. All rights reserved.</Copyright>
 			</FooterContent>
 		</FooterWrapper>
