@@ -84,7 +84,7 @@ export default function TopNavbar() {
 								Blogs
 							</Anc>
 						</li>
-						<li className="semiBold font15 pointer hover">
+						{/* <li className="semiBold font15 pointer hover">
 							<a
 								style={{ padding: "10px 15px", color: "black" }}
 								target="_blank"
@@ -92,7 +92,7 @@ export default function TopNavbar() {
 							>
 								Donate
 							</a>
-						</li>
+						</li> */}
 						<li className="semiBold font15 pointer hover">
 							<Link
 								activeclassName="active"

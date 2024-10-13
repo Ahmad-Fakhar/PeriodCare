@@ -34,7 +34,7 @@ export default function Projects() {
 							<Link to={"/appointment"}>
 								<ProjectBox
 									img={
-										"https://previews.123rf.com/images/artinspiring/artinspiring2003/artinspiring200300513/142303595-young-woman-have-in-vitro-fertilization-treatment-in-fertility-clinic-gynecologist-doctor-take-a-wom.jpg"
+										"https://th.bing.com/th/id/OIP.CfhysBdY7oNrgYOf3308zwHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
 									}
 									title="Get Gynaecologist's care"
 									text="Take an appointment from the nearest gynaecologist"
@@ -83,6 +83,7 @@ export default function Projects() {
 
 const Wrapper = styled.section`
 	width: 100%;
+	margin-bottom: 20px; /* Add margin at the bottom */
 `;
 const HeaderInfo = styled.div`
 	text-align: center; /* Center the text */
