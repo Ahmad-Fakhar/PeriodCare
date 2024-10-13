@@ -43,10 +43,7 @@ export default function TopNavbar() {
 						<li className="semiBold font15 pointer hover">
 							<Link
 								style={{ padding: "10px 15px", color: "black" }}
-								to="services"
-								spy={true}
-								smooth={true}
-								offset={-80}
+								to="/about"
 							>
 								About
 							</Link>
