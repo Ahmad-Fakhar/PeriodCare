@@ -7,7 +7,7 @@ export default function Footer() {
 			<FooterContent>
 				<AppName>Period Care</AppName>
 				
-				<Copyright>© {new Date().getFullYear()}PeriodCare.All rights reserved.</Copyright>
+				<Copyright>© {new Date().getFullYear()} PeriodCare.All rights reserved</Copyright>
 			</FooterContent>
 		</FooterWrapper>
 	);
