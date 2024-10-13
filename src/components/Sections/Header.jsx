@@ -38,11 +38,8 @@ export default function Header() {
 						style={{ zIndex: 9 }}
 					/>
 					{/* Removed QuoteWrapper section */}
-					<DotsWrapper>
-						<Dots />
-					</DotsWrapper>
+					
 				</ImageWrapper>
-				<GreyDiv className="lightBg"></GreyDiv>
 			</RightSide>
 		</Wrapper>
 	);
