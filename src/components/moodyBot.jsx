@@ -108,15 +108,7 @@ const MoodyBot = () => {
 				></GoogleMapReact>
 			</div> */}
 
-			{/* <!-- Banner --> */}
-			<a
-				href="https://donate.stripe.com/test_eVa8xv6m603J4Za148"
-				className="btn w-full btn-primary text-truncate rounded-0 border-0 position-relative"
-				style={{ zIndex: "1000", background: "#E52F8A", marginTop: "0px" }}
-			>
-				<strong>Heya Shewinner : : </strong> Let's contribute to the
-				community donate now →
-			</a>
+			
 
 			{/* <!-- Dashboard --> */}
 			<div className="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary">
