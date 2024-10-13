@@ -85,6 +85,8 @@ const Wrapper = styled.section`
 	width: 100%;
 `;
 const HeaderInfo = styled.div`
+	text-align: center; /* Center the text */
+	margin: 0 auto; /* Center the container */
 	@media (max-width: 860px) {
 		text-align: center;
 	}
