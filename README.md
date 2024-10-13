@@ -2,7 +2,9 @@
 
 <div align="center">
 
-
+<p align="center">
+  <img src="logo512.png" alt="LegalBuddy Overview" width="20%"/>
+</p>
 
 #  Period Care🌸
 
