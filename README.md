@@ -32,9 +32,7 @@
 
 ## 🚀 About Her Period
 
-<p align="center">
-  <img src="https://github.com/muhammadibrahim313/LegalBuddy_o1/blob/case-analysis-01/background.jpg" alt="LegalBuddy Overview" width="80%"/>
-</p>
+
 
 Her Period is a comprehensive web platform dedicated to women's health, focusing on menstrual hygiene, reproductive health, and overall well-being. Our mission is to empower women through education, support, and easy access to healthcare resources.
 
