@@ -62,7 +62,7 @@ const Dashboard = () => {
 	return (
 		<>
 			<Helmet>
-				<title>{`Shewin | ${CurrentUser?.displayName} Dashboard`}</title>
+				<title>{`Period Care | ${CurrentUser?.displayName} Dashboard`}</title>
 			</Helmet>
 			
 			{/* <!-- Dashboard --> */}
