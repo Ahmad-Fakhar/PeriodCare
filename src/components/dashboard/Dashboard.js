@@ -232,10 +232,10 @@ const Dashboard = () => {
 										</div>
 										<div>
 											<span className="d-block text-sm font-semibold">
-												Dr. Marie Claire
+												Dr. Martha
 											</span>
 											<span className="d-block text-xs text-muted font-regular">
-												Dr. Paris, FR
+												Iceland
 											</span>
 										</div>
 										<div className="ms-auto">
@@ -255,10 +255,10 @@ const Dashboard = () => {
 										</div>
 										<div>
 											<span className="d-block text-sm font-semibold">
-												Michael Jordan
+												Smith 
 											</span>
 											<span className="d-block text-xs text-muted font-regular">
-												Bucharest, RO
+												Ireland
 											</span>
 										</div>
 										<div className="ms-auto">
@@ -280,10 +280,10 @@ const Dashboard = () => {
 										</div>
 										<div>
 											<span className="d-block text-sm font-semibold">
-												Dr Heather Wright
+												Dr Hamid Raza
 											</span>
 											<span className="d-block text-xs text-muted font-regular">
-												London, UK
+												New York, USA
 											</span>
 										</div>
 										<div className="ms-auto">

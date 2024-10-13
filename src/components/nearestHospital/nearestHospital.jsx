@@ -320,10 +320,10 @@ const NearHospital = () => {
 										</div>
 										<div>
 											<span className="d-block text-sm font-semibold">
-												Dr Heather Wright
+												Dr Hamid Raza
 											</span>
 											<span className="d-block text-xs text-muted font-regular">
-												London, UK
+												New York, USA
 											</span>
 										</div>
 										<div className="ms-auto">
