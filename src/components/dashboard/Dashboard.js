@@ -64,16 +64,7 @@ const Dashboard = () => {
 			<Helmet>
 				<title>{`Shewin | ${CurrentUser?.displayName} Dashboard`}</title>
 			</Helmet>
-			{/* <!-- Banner --> */}
-			<a
-				href="https://donate.stripe.com/test_eVa8xv6m603J4Za148"
-				className="btn w-full btn-primary text-truncate rounded-0 border-0 position-relative"
-				style={{ zIndex: "1000", background: "#E52F8A", marginTop: "0px" }}
-			>
-				<strong>Heya Shewinner : : </strong> Let's contribute to the community
-				donate now →
-			</a>
-
+			
 			{/* <!-- Dashboard --> */}
 			<div className="d-flex flex-column flex-lg-row h-lg-full bg-surface-secondary">
 				{/* <!-- Vertical Navbar --> */}
@@ -160,9 +151,7 @@ const Dashboard = () => {
 									<Link to="/moodtracker" className="dropdown-item">
 										Mood Tracker
 									</Link>
-									<Link to="/blogform" className="dropdown-item">
-										BLogs
-									</Link>
+									
 									<Link to="/profile" className="dropdown-item">
 										Profile
 									</Link>
@@ -191,14 +180,7 @@ const Dashboard = () => {
 										<i className="bi bi-bar-chart"></i> Mood Tracker
 									</Link>
 								</li> */}
-								<li className="nav-item">
-									<Link className="nav-link" to={"/blogform"}>
-										<i className="bi bi-chat"></i> Blogs
-										<span className="badge bg-soft-primary text-primary rounded-pill d-inline-flex align-items-center ms-auto">
-											{size}
-										</span>
-									</Link>
-								</li>
+								
 								<li className="nav-item">
 									<Link className="nav-link" to="/track">
 										<i className="bi bi-bookmarks"></i> Period Tracker
