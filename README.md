@@ -4,7 +4,7 @@
 
 
 
-# Her Period 🌸
+#  Period Care🌸
 
 <h3>
   <span style="background: linear-gradient(45deg, #FF69B4, #FF1493, #C71585, #DB7093);
@@ -30,7 +30,7 @@
 
 ---
 
-## 🚀 About Her Period
+## 🚀 About  Period Care
 
 <p align="center">
   <img src="Blue Dark Professional Geometric Business Project Presentation .png" alt="LegalBuddy Overview" width="80%"/>
