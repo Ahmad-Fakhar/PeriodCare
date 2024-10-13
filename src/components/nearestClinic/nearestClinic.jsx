@@ -189,14 +189,7 @@ const NearClinic = () => {
 										<i className="bi bi-bar-chart"></i> Mood Tracker
 									</Link>
 								</li>
-								<li className="nav-item">
-									<Link className="nav-link" to={"/blogform"}>
-										<i className="bi bi-chat"></i> Blogs
-										<span className="badge bg-soft-primary text-primary rounded-pill d-inline-flex align-items-center ms-auto">
-											{size}
-										</span>
-									</Link>
-								</li>
+								
 								<li className="nav-item">
 									<Link className="nav-link" to="/track">
 										<i className="bi bi-bookmarks"></i> Period Tracker
